@@ -220,4 +220,5 @@ if __name__ == "__main__":
         test_notification_form(driver)
         test_admin(driver)
     finally:
+        print("Todos os testes realizados com sucesso")
         driver.quit()
